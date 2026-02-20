@@ -1,11 +1,111 @@
-.Ladingpage{
-  .head{
-    h2{
-      color: white;
-    }
-    Link{
-      text-decoration: none;
+
+.Ladingpage {
+  .head {
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    gap: 44em;
+
+    .left {
+      margin-left: 0.5em;
+      gap: 0.3em;
+      display: flex;
+      align-items: center;
+      font-family: "Microsoft PhagsPa";
+
+      .caract {
+        color: #39FF14;
+        font-size: 1.2em;
+
+      }
+
+      .myname {
+        color: white;
+        font-size: 1.2em;
+
+      }
     }
 
+    .right {
+      gap: 3em;
+      display: flex;
+      align-items: center;
+
+      a {
+        gap: 0.5em;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-family: "Microsoft PhagsPa";
+        transition: transform 0.3s ease;
+
+        img {
+          width: 1.1em;
+        }
+
+        h2 {
+          font-size: 1.1em;
+          color: white;
+          font-family: "Microsoft PhagsPa";
+        }
+      }
+
+      a:hover {
+        transform: scale(1.01);
+      }
+    }
+  }
+
+  #home {
+    display: flex;
+    align-items: center;
+
+    .text_button {
+
+      h1 {
+        color: #39FF14;
+        font-family: "Humnst777BlkBT";
+      }
+
+      .bio {
+        display: flex;
+        text-align: center;
+        gap: 0.3em;
+        font-family: "Microsoft PhagsPa";
+
+        .text1 {
+          color: white;
+
+        }
+
+        .text2 {
+          color: #39FF14;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        gap: 0.8em;
+
+        .button {
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          text-decoration: none;
+          gap: 0.8em;
+          color: #39FF14;
+          border: #39FF14 2px solid;
+          border-radius: 5px;
+          width: 10em;
+          height: 3em;
+          font-family: "Microsoft PhagsPa";
+
+        }
+      }
+    }
+
+    img {}
   }
 }
