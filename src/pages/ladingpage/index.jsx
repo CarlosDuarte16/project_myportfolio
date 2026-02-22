@@ -65,7 +65,7 @@ export default function Ladingpage() {
         </div>
         <div className='cards'>
           <div className='card-frontend'>
-            <img src="/assets/images/icon_html.png" alt="" />
+            <img className='mother-img' src="/assets/images/icon_html.png" alt="" />
             <h2>Frontend</h2>
             <div className='habilidade'>
               <img src="/assets/images/icon_br_html.png" alt="" />
@@ -81,10 +81,10 @@ export default function Ladingpage() {
             </div>
           </div>
           <div className='card-backend'>
-            <img src="/assets/images/icon_JS.png" alt="" />
+            <img className='mother-img' src="/assets/images/icon_JS.png" alt="" />
             <h2>Backend</h2>
             <div className='habilidade'>
-              <img src="/assets/images/icon_br_nodejs.png" alt="" />
+              <img src="/assets/images/icon_br_nodejs .png" alt="" />
               <h4>NodeJS</h4>
             </div>
             <div className='habilidade'>
@@ -97,7 +97,7 @@ export default function Ladingpage() {
             </div>
           </div>
           <div className='card-framework'>
-            <img src="/assets/images/icon_react.png" alt="" />
+            <img className='mother-img' src="/assets/images/icon_react.png" alt="" />
             <h2>Framework</h2>
             <div className='habilidade'>
               <img src="/assets/images/icon_figma.png" alt="" />

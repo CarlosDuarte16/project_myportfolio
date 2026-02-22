@@ -130,12 +130,13 @@
 
   #sobremim {
     margin-top: 10em;
+
     .image-text {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 5em;
-    
+
 
       .perfil {
         width: auto;
@@ -177,6 +178,104 @@
     }
 
     .cards {
+      display: flex;
+      color: white;
+      font-family: "Microsoft PhagsPa";
+      justify-content: center;
+      margin-top: 8em;
+
+
+      .mother-img {
+        width: auto;
+        height: 6em;
+
+      }
+
+      .card-frontend {
+        border: #39FF14 4px solid;
+        width: 18em;
+        height: 30em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-right: 2px;
+
+        h2 {
+          margin-bottom: 2em;
+        }
+
+        .habilidade {
+          display: flex;
+          align-items: center;
+          gap: 1em;
+
+          img {
+            width: auto;
+            height: 2em;
+          }
+        }
+      }
+
+      .card-backend {
+        border: #39FF14 4px solid;
+        width: 18em;
+        height: 30em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 3px;
+
+        h2 {
+          margin-bottom: 2em;
+        }
+
+        .habilidade {
+          display: flex;
+          align-items: center;
+          gap: 1em;
+
+          img {
+            width: auto;
+            height: 2em;
+          }
+        }
+      }
+
+      .card-framework {
+        border: #39FF14 4px solid;
+        width: 18em;
+        height: 26em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4em;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        .mother-img {
+          margin-top: -1em;
+
+        }
+
+        h2 {
+          margin-bottom: 2em;
+        }
+
+        .habilidade {
+          display: flex;
+          align-items: center;
+          gap: 1em;
+
+          img {
+            width: auto;
+            height: 2em;
+          }
+        }
+      }
 
     }
   }
