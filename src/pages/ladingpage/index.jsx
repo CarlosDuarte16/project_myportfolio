@@ -30,6 +30,7 @@ export default function Ladingpage() {
           </a>
         </div>
       </div>
+
       <div id='home'>
         <div className='text_button'>
           <h1>Carlos Albuquerque</h1>
@@ -50,6 +51,7 @@ export default function Ladingpage() {
         </div>
         <img className='perfil' src="/assets/images/Foto_perfil.png  " alt="" />
       </div>
+
       <div id='sobremim'>
         <div className='image-text'>
           <img className='perfil' src="/assets/images/Foto_perfil.png  " alt="" />
@@ -100,22 +102,66 @@ export default function Ladingpage() {
             <img className='mother-img' src="/assets/images/icon_react.png" alt="" />
             <h2>Framework</h2>
             <div className='habilidade'>
-              <img src="/assets/images/icon_figma.png" alt="" />
-              <h4>Figma</h4>
+              <img src="/assets/images/icon_br_react.png" alt="" />
+              <h4>ReactJS</h4>
             </div>
           </div>
         </div>
       </div>
+
       <div id='projetos'>
-        <div className='projeto1'></div>
-        <div className='projeto2'></div>
-        <div className='projeto3'></div>
+        <div className='project1'>
+          <img className='img_project' src="/assets/images/img_project_portfolio.png" alt="" />
+          <div className='line'></div>
+          <div className='description-project1'>
+            <h2>Portfólio</h2>
+            <h4>Aplicação WEB Responsiva onde você pode <br /> encontrar informações sobre minha experiência.</h4>
+            <div className='tools'>
+              <div className='tool1'>
+                <img src="/assets/images/icon_br_react.png" alt="" />
+                <h3>ReactJS</h3>
+              </div>
+              <div className='tool2'>
+                <img src="/assets/images/icon_figma.png" alt="" />
+                <h3>FIGMA</h3>
+              </div>
+            </div>
+            <Link className='more-information'>
+              <h4>Mais informacões</h4>
+              <img src="/assets/images/external-link.png" alt="" />
+            </Link>
+          </div>
+        </div>
+        <div className='project2'>
+
+          <div className='description-project2'>
+            <h2>Ladinpage GlesAquecedores</h2>
+            <h4>Aplicação WEB Responsiva de Ladinpage, criado <br /> para um empresário autônomo.</h4>
+            <div className='tools'>
+              <div className='tool1'>
+                <img src="/assets/images/icon_br_react.png" alt="" />
+                <h3>ReactJS</h3>
+              </div>
+              <div className='tool2'>
+                <img src="/assets/images/icon_figma.png" alt="" />
+                <h3>FIGMA</h3>
+              </div>
+            </div>
+            <Link className='more-information'>
+              <h4 className='link'>Mais informacões</h4>
+              <img src="/assets/images/external-link.png" alt="" />
+            </Link>
+          </div>
+          <div className='line'></div>
+          <img className='img_project' src="/assets/images/img_project_glesaquecedores.png" alt="" />
+
+        </div>
       </div>
+
       <div id='contato'>
-
       </div>
-      <div className='Baseboard'>
 
+      <div className='Baseboard'>
       </div>
     </div>
   );

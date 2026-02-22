@@ -276,7 +276,189 @@
           }
         }
       }
+    }
+  }
 
+  #projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+    gap: 5em;
+
+    .project1 {
+      display: flex;
+      gap: 2em;
+      align-items: center;
+      border: #39FF14 4px solid;
+      border-radius: 10px;
+      width: 60em;
+      height: 19em;
+      margin-left: 4em;
+
+      .img_project {
+        width: auto;
+        height: 13em;
+        margin-left: 1em;
+        border: #39FF14 solid 1px;
+        border-radius: 5px;
+      }
+
+      .line {
+        justify-content: center;
+        border: #39FF14 1px solid;
+        width: 0em;
+        height: 10em;
+      }
+
+      .description-project1 {
+        color: white;
+        font-family: "Microsoft PhagsPa";
+
+        h2 {
+          font-size: 2em;
+        }
+
+        h4 {
+          line-height: 1.7em;
+        }
+
+        .tools {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 4em;
+
+          .tool1,
+          .tool2 {
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+
+            h3 {
+              font-size: 1em;
+            }
+
+            img {
+              width: auto;
+              height: 1.5em;
+            }
+          }
+        }
+
+        .more-information {
+          margin-left: 6em;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          gap: 0.5em;
+          border: #39FF14 1px solid;
+          border-radius: 5px;
+          width: 12em;
+          height: 2.5em;
+
+          h4 {
+            color: #39FF14;
+            font-weight: 200;
+
+          }
+
+          img {
+            width: auto;
+            height: 1em;
+          }
+        }
+      }
+    }
+
+
+    .project2 {
+      display: flex;
+      gap: 2em;
+      align-items: center;
+      border: #39FF14 4px solid;
+      border-radius: 10px;
+      width: 60em;
+      height: 19em;
+      margin-left: 20em;
+
+      .img_project {
+        width: auto;
+        height: 16em;
+        border-radius: 2px;
+        margin-left: 0em;
+
+      }
+
+      .line {
+        justify-content: center;
+        border: #39FF14 1px solid;
+        width: 0em;
+        height: 10em;
+        margin-left: 1.5em;
+      }
+
+      .description-project2 {
+        color: white;
+        font-family: "Microsoft PhagsPa";
+
+        h2 {
+          font-size: 1.6em;
+          margin-left: 1em;
+        }
+
+        h4 {
+          line-height: 1.7em;
+          margin-left: 1.5em;
+        }
+
+        .tools {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 4em;
+
+          .tool1,
+          .tool2 {
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+
+            h3 {
+              font-size: 1em;
+            }
+
+            img {
+              width: auto;
+              height: 1.5em;
+            }
+          }
+        }
+
+        .more-information {
+          margin-left: 6em;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          gap: 0.5em;
+          border: #39FF14 1px solid;
+          border-radius: 5px;
+          width: 12em;
+          height: 2.5em;
+
+          .link {
+            color: #39FF14;
+            font-weight: 200;
+            margin-left: 0em;
+          }
+
+          img {
+            width: auto;
+            height: 1em;
+          }
+        }
+      }
     }
   }
 }
