@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "font1";
+  src: url("../../../public/assets/fonts/humanist-777-black-italic-bt.ttf") format("truetype");
+}
 
 .Ladingpage {
+
   .head {
     margin-top: -15px;
     display: flex;
@@ -57,21 +62,28 @@
   }
 
   #home {
+    margin-top: 10em;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 09em;
 
     .text_button {
 
       h1 {
         color: #39FF14;
-        font-family: "Humnst777BlkBT";
+        font-family: "font1";
+        font-size: 4em;
       }
 
       .bio {
+        margin-top: -3em;
         display: flex;
         text-align: center;
+        justify-content: center;
         gap: 0.3em;
         font-family: "Microsoft PhagsPa";
+        font-size: 1.2em;
 
         .text1 {
           color: white;
@@ -86,7 +98,10 @@
       .buttons {
         display: flex;
         align-items: center;
-        gap: 0.8em;
+        justify-content: center;
+        gap: 10em;
+        margin-top: 2em;
+
 
         .button {
           display: flex;
@@ -103,9 +118,66 @@
           font-family: "Microsoft PhagsPa";
 
         }
+
       }
     }
 
-    img {}
+    .perfil {
+      width: auto;
+      height: 24em;
+    }
+  }
+
+  #sobremim {
+    margin-top: 10em;
+    .image-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5em;
+    
+
+      .perfil {
+        width: auto;
+        height: 17em;
+      }
+
+      .text-button {
+        font-family: "Microsoft PhagsPa";
+
+        p {
+          color: white;
+          font-weight: 550;
+          line-height: 2.1;
+        }
+
+        .button-cv {
+          display: flex;
+          align-items: center;
+          gap: 0.5em;
+          text-decoration: none;
+          color: #39FF14;
+          border: #39FF14 1px solid;
+          border-radius: 5px;
+          width: 9em;
+          height: 2em;
+          justify-content: center;
+
+          h3 {
+            margin-top: 1.1em;
+            font-weight: 100;
+          }
+
+          img {
+            width: auto;
+            height: 1.3em;
+          }
+        }
+      }
+    }
+
+    .cards {
+
+    }
   }
 }

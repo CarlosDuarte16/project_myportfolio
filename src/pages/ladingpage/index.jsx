@@ -1,4 +1,4 @@
-import './index.scss';  
+import './index.scss';
 
 import { Link } from 'react-router-dom';
 
@@ -48,11 +48,63 @@ export default function Ladingpage() {
             </Link>
           </div>
         </div>
-        <img src="/assets/images/Foto_perfil.png  " alt="" />
+        <img className='perfil' src="/assets/images/Foto_perfil.png  " alt="" />
       </div>
       <div id='sobremim'>
-        <div className='image-text'></div>
-        <div className='cards'></div>
+        <div className='image-text'>
+          <img className='perfil' src="/assets/images/Foto_perfil.png  " alt="" />
+          <div className='text-button'>
+            <p>Olá! Sou Carlos Albuquerque, desenvolvedor front-end com experiência em back-end, <br /> atualmente cursando Bacharelado em Engenharia de Software na Instituição Toledo de <br /> Ensino(ITE). <br />
+              Concluí o curso técnico em Informática (2024) no Instituto Social Nossa Senhora de Fátima,<br /> em São Paulo – Capital. <br />
+              Tenho experiência prática com ReactJS, Node.js, MySQL e SASS, desenvolvendo aplicações <br /> modernas, responsivas e funcionais. Meu foco é criar websites e landing pages personalizadas <br /> para autônomos, pequenos e médios negócios.</p>
+            <Link className='button-cv'>
+              <h3>Abrir CV</h3>
+              <img src="/assets/images/external-link.png" alt="" />
+            </Link>
+          </div>
+        </div>
+        <div className='cards'>
+          <div className='card-frontend'>
+            <img src="/assets/images/icon_html.png" alt="" />
+            <h2>Frontend</h2>
+            <div className='habilidade'>
+              <img src="/assets/images/icon_br_html.png" alt="" />
+              <h4>HTML</h4>
+            </div>
+            <div className='habilidade'>
+              <img src="/assets/images/icon_css.png" alt="" />
+              <h4>CSS</h4>
+            </div>
+            <div className='habilidade'>
+              <img src="/assets/images/icon_br_js.png" alt="" />
+              <h4>Java Script</h4>
+            </div>
+          </div>
+          <div className='card-backend'>
+            <img src="/assets/images/icon_JS.png" alt="" />
+            <h2>Backend</h2>
+            <div className='habilidade'>
+              <img src="/assets/images/icon_br_nodejs.png" alt="" />
+              <h4>NodeJS</h4>
+            </div>
+            <div className='habilidade'>
+              <img src="/assets/images/icon_mysql.png" alt="" />
+              <h4>MySQL</h4>
+            </div>
+            <div className='habilidade'>
+              <img src="/assets/images/icon_json.png" alt="" />
+              <h4>Json</h4>
+            </div>
+          </div>
+          <div className='card-framework'>
+            <img src="/assets/images/icon_react.png" alt="" />
+            <h2>Framework</h2>
+            <div className='habilidade'>
+              <img src="/assets/images/icon_figma.png" alt="" />
+              <h4>Figma</h4>
+            </div>
+          </div>
+        </div>
       </div>
       <div id='projetos'>
         <div className='projeto1'></div>
