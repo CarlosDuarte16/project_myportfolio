@@ -3,6 +3,11 @@
   src: url("../../../public/assets/fonts/humanist-777-black-italic-bt.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "font2";
+  src: url("../../../public/assets/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
 .Ladingpage {
 
   .head {
@@ -16,7 +21,7 @@
       gap: 0.3em;
       display: flex;
       align-items: center;
-      font-family: "Microsoft PhagsPa";
+      font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
 
       .caract {
         color: #39FF14;
@@ -41,7 +46,7 @@
         display: flex;
         align-items: center;
         text-decoration: none;
-        font-family: "Microsoft PhagsPa";
+        font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
         transition: transform 0.3s ease;
 
         img {
@@ -51,7 +56,7 @@
         h2 {
           font-size: 1.1em;
           color: white;
-          font-family: "Microsoft PhagsPa";
+          font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
         }
       }
 
@@ -82,7 +87,7 @@
         text-align: center;
         justify-content: center;
         gap: 0.3em;
-        font-family: "Microsoft PhagsPa";
+        font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
         font-size: 1.2em;
 
         .text1 {
@@ -115,7 +120,7 @@
           border-radius: 5px;
           width: 10em;
           height: 3em;
-          font-family: "Microsoft PhagsPa";
+          font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
 
         }
 
@@ -144,7 +149,7 @@
       }
 
       .text-button {
-        font-family: "Microsoft PhagsPa";
+        font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
 
         p {
           color: white;
@@ -180,7 +185,7 @@
     .cards {
       display: flex;
       color: white;
-      font-family: "Microsoft PhagsPa";
+      font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
       justify-content: center;
       margin-top: 8em;
 
@@ -312,7 +317,7 @@
 
       .description-project1 {
         color: white;
-        font-family: "Microsoft PhagsPa";
+        font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
 
         h2 {
           font-size: 2em;
@@ -400,7 +405,7 @@
 
       .description-project2 {
         color: white;
-        font-family: "Microsoft PhagsPa";
+        font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
 
         h2 {
           font-size: 1.6em;
@@ -460,5 +465,74 @@
         }
       }
     }
+  }
+
+  #contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 18em;
+    margin-top: 5em;
+
+    padding: 3em 0;
+
+    background: linear-gradient(180deg,
+        #000000 0%,
+        #003400 40%,
+        #007C00 70%,
+        #18DE00 100%);
+
+    h1 {
+      font-family: "font1";
+      font-size: 3.8em;
+    }
+
+    .contatos {
+      font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
+      display: flex;
+      flex-direction: column;
+
+      .linkedin,
+      .instagram,
+      .whatsapp,
+      .email {
+        color: white;
+        display: flex;
+        gap: 0.5em;
+        transition: transform 0.3s ease;
+        align-items: center;
+        text-decoration: none;
+
+        img {
+          width: auto;
+          height: 1.8em;
+        }
+      }
+
+      .linkedin:hover,
+      .instagram:hover,
+      .whatsapp:hover,
+      .email:hover {
+        transform: scale(1.01);
+      }
+    }
+  }
+
+  .baseboard {
+    font-family: "Microsoft PhagsPa", "Inter-VariableFont_opsz,wght";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    height: 2em;
+
+    img {
+      width: auto;
+      height: 1.2em;
+      margin-top: 0.2em;
+    }
+
   }
 }

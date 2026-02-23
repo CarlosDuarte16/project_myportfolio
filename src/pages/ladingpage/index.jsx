@@ -24,7 +24,7 @@ export default function Ladingpage() {
             <img src="/assets/images/windows.png" alt="fail" />
             <h2>Projetos</h2>
           </a>
-          <a href="#contatos">
+          <a href="#contato">
             <img src="/assets/images/email.png" alt="fail" />
             <h2>Contatos</h2>
           </a>
@@ -39,11 +39,11 @@ export default function Ladingpage() {
             <h4 className='text2'>Front-end</h4>
           </div>
           <div className='buttons'>
-            <Link className='button'>
+            <Link to="https://www.linkedin.com/in/carlos-albuquerque-93846b257/" target='_blank' className='button'>
               <img src="/assets/images/LinkedIn.png" alt="" />
               <h4>LinkedIn</h4>
             </Link>
-            <Link className='button'>
+            <Link to="https://github.com/CarlosDuarte16" target='_blank' className='button'>
               <img src="/assets/images/Github.png" alt="" />
               <h4>Github</h4>
             </Link>
@@ -59,7 +59,7 @@ export default function Ladingpage() {
             <p>Olá! Sou Carlos Albuquerque, desenvolvedor front-end com experiência em back-end, <br /> atualmente cursando Bacharelado em Engenharia de Software na Instituição Toledo de <br /> Ensino(ITE). <br />
               Concluí o curso técnico em Informática (2024) no Instituto Social Nossa Senhora de Fátima,<br /> em São Paulo – Capital. <br />
               Tenho experiência prática com ReactJS, Node.js, MySQL e SASS, desenvolvendo aplicações <br /> modernas, responsivas e funcionais. Meu foco é criar websites e landing pages personalizadas <br /> para autônomos, pequenos e médios negócios.</p>
-            <Link className='button-cv'>
+            <Link target='_blank' className='button-cv'>
               <h3>Abrir CV</h3>
               <img src="/assets/images/external-link.png" alt="" />
             </Link>
@@ -126,7 +126,7 @@ export default function Ladingpage() {
                 <h3>FIGMA</h3>
               </div>
             </div>
-            <Link className='more-information'>
+            <Link target='_blank' className='more-information'>
               <h4>Mais informacões</h4>
               <img src="/assets/images/external-link.png" alt="" />
             </Link>
@@ -147,7 +147,7 @@ export default function Ladingpage() {
                 <h3>FIGMA</h3>
               </div>
             </div>
-            <Link className='more-information'>
+            <Link target='_blank' className='more-information'>
               <h4 className='link'>Mais informacões</h4>
               <img src="/assets/images/external-link.png" alt="" />
             </Link>
@@ -159,9 +159,30 @@ export default function Ladingpage() {
       </div>
 
       <div id='contato'>
+        <h1>ENTRE EM <br /> CONTATO!</h1>
+        <div className='contatos'>
+          <Link to="https://www.linkedin.com/in/carlos-albuquerque-93846b257/" target='_blank' className='linkedin'>
+            <img src="/assets/images/icon-linkedin.png" alt="" />
+            <h4>Carlos Albuquerque</h4>
+          </Link>
+          <Link  target='_blank'className='instagram'>
+            <img src="/assets/images/icon-instagram.png" alt="" />
+            <h4>@carls._duarte</h4>
+          </Link>
+          <Link target='_blank'className='whatsapp'>
+            <img src="/assets/images/icon-whatsapp.png" alt="" />
+            <h4>(14)99186-1117</h4>
+          </Link>
+          <Link target='_blank' className='email'>
+            <img src="/assets/images/icon-email.png" alt="" />
+            <h4>carlos.albuquerque1627@gmail.com</h4>
+          </Link>
+        </div>
       </div>
 
-      <div className='Baseboard'>
+      <div className='baseboard'>
+        <img src="/assets/images/icon-copyright.png" alt="" />
+        <h4>Copyright 2026. Desenvolvido por Carlos Albuquerque</h4>
       </div>
     </div>
   );
