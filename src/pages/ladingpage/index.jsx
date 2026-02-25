@@ -40,11 +40,11 @@ export default function Ladingpage() {
           </div>
           <div className='buttons'>
             <Link to="https://www.linkedin.com/in/carlos-albuquerque-93846b257/" target='_blank' className='button'>
-              <img src="/assets/images/LinkedIn.png" alt="" />
+              <img src="/assets/images/icon-linkedin.png" alt="" />
               <h4>LinkedIn</h4>
             </Link>
             <Link to="https://github.com/CarlosDuarte16" target='_blank' className='button'>
-              <img src="/assets/images/Github.png" alt="" />
+              <img src="/assets/images/icon-github.png" alt="" />
               <h4>Github</h4>
             </Link>
           </div>
@@ -61,7 +61,7 @@ export default function Ladingpage() {
               Tenho experiência prática com ReactJS, Node.js, MySQL e SASS, desenvolvendo aplicações <br /> modernas, responsivas e funcionais. Meu foco é criar websites e landing pages personalizadas <br /> para autônomos, pequenos e médios negócios.</p>
             <Link target='_blank' className='button-cv'>
               <h3>Abrir CV</h3>
-              <img src="/assets/images/external-link.png" alt="" />
+              <img src="/assets/images/external.png" alt="" />
             </Link>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function Ladingpage() {
             </div>
             <Link target='_blank' className='more-information'>
               <h4>Mais informacões</h4>
-              <img src="/assets/images/external-link.png" alt="" />
+              <img src="/assets/images/external.png" alt="" />
             </Link>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function Ladingpage() {
             </div>
             <Link target='_blank' className='more-information'>
               <h4 className='link'>Mais informacões</h4>
-              <img src="/assets/images/external-link.png" alt="" />
+              <img src="/assets/images/external.png" alt="" />
             </Link>
           </div>
           <div className='line'></div>
@@ -162,7 +162,7 @@ export default function Ladingpage() {
         <h1>ENTRE EM <br /> CONTATO!</h1>
         <div className='contatos'>
           <Link to="https://www.linkedin.com/in/carlos-albuquerque-93846b257/" target='_blank' className='linkedin'>
-            <img src="/assets/images/icon-linkedin.png" alt="" />
+            <img src="/assets/images/icon-br-linkedin.png" alt="" />
             <h4>Carlos Albuquerque</h4>
           </Link>
           <Link  target='_blank'className='instagram'>
